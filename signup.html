@@ -49,13 +49,13 @@
   <body class="text-center">
 
 <main class="form-signin">
-  <form>
+  <form action="/" method="POST">
     <img class="mb-4" src="images/mailchimp.svg" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">Signup to My Newsletter</h1>
 
-    <input type="text" class="form-control top" placeholder="First Name" required autofocus>
-    <input type="text" class="form-control middle" placeholder="Last Name" required autofocus>
-    <input type="email" class="form-control bottom" placeholder="Email address" required autofocus>
+    <input type="text" name="fname" class="form-control top" placeholder="First Name" required autofocus>
+    <input type="text" name="lname" class="form-control middle" placeholder="Last Name" required autofocus>
+    <input type="email" name="email" class="form-control bottom" placeholder="Email address" required autofocus>
 
 
     <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Me Up!</button>
